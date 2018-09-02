@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1054940552730644}
+  m_IsPrefabAsset: 1
+--- !u!1 &1054940552730644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4574425936166366}
+  - component: {fileID: 114753614243532636}
+  m_Layer: 0
+  m_Name: AudioManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4574425936166366
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054940552730644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 164.5, y: 291.52502, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114753614243532636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054940552730644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8412317288e9b8f4b9af3ee86a8b41bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerCrash
+    clip: {fileID: 8300000, guid: be834d6041b0c82469a6158e7d742489, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 2a668bcd66b55754d87760fe73e9b177, type: 3}
+    volume: 0.141
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ObstacleDestruction
+    clip: {fileID: 8300000, guid: 735703f3ec097f348afcf8bca8b39046, type: 3}
+    volume: 0.492
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Burp
+    clip: {fileID: 8300000, guid: 35548386b1ea8be4c8e932900e088c09, type: 3}
+    volume: 0.329
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlasmaSound
+    clip: {fileID: 8300000, guid: 2921d2d9682434d49b29393fa7e4e6fd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: InFlames
+    clip: {fileID: 8300000, guid: 37a34e58ba0ee1f48944b4cc9f92bd21, type: 3}
+    volume: 0.314
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Khmkhm
+    clip: {fileID: 8300000, guid: c1695f8f98ddf194295434e5ddc7c5d3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Unsks
+    clip: {fileID: 8300000, guid: f9bfaf445e14d8f49a477564b486ee7e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: J2lleH2da
+    clip: {fileID: 8300000, guid: 931fd6eda1556df409e106f20e025459, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ei
+    clip: {fileID: 8300000, guid: 34a318995c515aa479dc8f97d4207dfe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

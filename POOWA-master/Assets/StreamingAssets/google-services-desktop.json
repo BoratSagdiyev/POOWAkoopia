@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "598111838027",
+    "firebase_url": "https://paawo-51005956.firebaseio.com",
+    "project_id": "paawo-51005956",
+    "storage_bucket": "paawo-51005956.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598111838027:android:418821082fa97da0",
+        "android_client_info": {
+          "package_name": "com.Salmiakki.PAAWO"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598111838027-o13h2mkf49so5p7kl7aqvbcc59p8gnl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Salmiakki.PAAWO",
+            "certificate_hash": "12b9a47deb9d0149c008fe1ec0fb6ba9e8367fc6"
+          }
+        },
+        {
+          "client_id": "598111838027-tc7h3r4t2rns9148dk8e8t2tmhhtsbd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8KplT2yh5f1_lL3JO4VfWLgoPYWapupE"
+        },
+        {
+          "current_key": "AIzaSyDQf0iXh47dfyid5hT2rLAWOGtTeUpPRUk"
+        },
+        {
+          "current_key": "AIzaSyCuZLJlBN99iOGNq5gYRYuhG7b0HgeaJ84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598111838027-vmr7deodbdiq3gms59ruo695nsam89qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

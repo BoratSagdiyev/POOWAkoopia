@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1028773873685346}
+  m_IsPrefabAsset: 1
+--- !u!1 &1028773873685346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4008678927341862}
+  - component: {fileID: 114989185639105354}
+  m_Layer: 0
+  m_Name: AudioManager 1
+  m_TagString: Music
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008678927341862
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028773873685346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 164.5, y: 291.52502, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114989185639105354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028773873685346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8412317288e9b8f4b9af3ee86a8b41bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerCrash
+    clip: {fileID: 8300000, guid: be834d6041b0c82469a6158e7d742489, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 46da69d92a58e16468844ebbda3b9c68, type: 3}
+    volume: 0.141
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ObstacleDestruction
+    clip: {fileID: 8300000, guid: 735703f3ec097f348afcf8bca8b39046, type: 3}
+    volume: 0.492
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Burp
+    clip: {fileID: 8300000, guid: 35548386b1ea8be4c8e932900e088c09, type: 3}
+    volume: 0.329
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlasmaSound
+    clip: {fileID: 8300000, guid: 2921d2d9682434d49b29393fa7e4e6fd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: InFlames
+    clip: {fileID: 8300000, guid: 3e9ab14bb22c3894883f6584549f3f5e, type: 3}
+    volume: 0.314
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Khmkhm
+    clip: {fileID: 8300000, guid: c1695f8f98ddf194295434e5ddc7c5d3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Unsks
+    clip: {fileID: 8300000, guid: f9bfaf445e14d8f49a477564b486ee7e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: J2lleH2da
+    clip: {fileID: 8300000, guid: 931fd6eda1556df409e106f20e025459, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ei
+    clip: {fileID: 8300000, guid: 34a318995c515aa479dc8f97d4207dfe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Slowly
+    clip: {fileID: 8300000, guid: adefa190d794fd145a73b1e68684aad1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jee
+    clip: {fileID: 8300000, guid: 14212897437560247843aa5ae8794e29, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MetalBall
+    clip: {fileID: 8300000, guid: ddf166d591c12014296d3d666144796b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SlowlyShorter
+    clip: {fileID: 8300000, guid: 8ae8b2fbf5e05644ea872f004ccf320b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Koeha
+    clip: {fileID: 8300000, guid: 5b9d4ad4728347a429269efa1f559df9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  audioSources: []
